@@ -1,0 +1,221 @@
+<!--carrinho-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+          background-color: rgb(193, 229, 253);
+      }
+    .cart-item {
+      border-bottom: 1px solid #777272;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .total {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+  </style>
+</head>
+<body>
+
+
+  <!----nav---->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Livraria</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="ofertas.html">Ofertas</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Classificação
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="ação.html">Ação</a></li>
+              <li><a class="dropdown-item" href="comédia.html">Comédia</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="romance.html">Romance</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Biblioteca</a>
+          </li>
+
+          <a href="carrinho.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+            </svg>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--cod carrinho--->
+  <div class="container">
+    <h2>Meu Carrinho</h2>
+
+    <div class="cart-item">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="img/a culpa é das estrelas.jpg" width="100px" alt="Produto 1" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <h4>A culpa é das estrelas</h4>
+          <p>por John Green
+            <br>
+            Capa comum.</p>
+        </div>
+        <div class="col-md-3">
+          <p>Preço: R$39.99</p>
+          <button type="button" class="btn btn-dark">Remover </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart-item">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="img/proza.webp" width="100px" alt="Produto 2" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <h4>Comunicação e proza</h4>
+          <p>por Othon Moacyr Garcia
+            <br>
+            Capa comum.</p>
+        </div>
+        <div class="col-md-3">
+          <p>Preço: R49.99</p>
+          <button type="button" class="btn btn-dark">Remover</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart-item">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="img/é assim que acaba.jpg" width="100px" alt="Produto 2" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <h4>É assim que acaba</h4>
+          <p>por Colleen Hoover
+            <br>
+            Capa comum.</p>
+        </div>
+        <div class="col-md-3">
+          <p>Preço: R$43.65</p>
+          <button type="button" class="btn btn-dark">Remover</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="total">
+      <p>Total: R$113.65</p>
+      <a href="finalizar.html">
+        <button class="btn btn-primary">Finalizar Compra</button>
+      </a>
+    </div>
+  </div>
+  <br>
+
+  <!-- Roda pé -->
+  <footer class="container-fluid bg-dark" id="footer">
+    <div class="container">
+      <div class="row">
+        <!-- Roda pé -->
+        <div class="col-12" id="footer-top">
+          <div class="row justify-content-between">
+            <div class="col-4 text-light">
+              <h2>
+                Biblioteca-Online
+              </h2>
+            </div>
+            <div class="col-4" id="social-icons">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-youtube"></i>
+              <i class="bi bi-twitter"></i>
+            </div>
+          </div>
+        </div>
+        <!-- detalhes -->
+        <div class="col-12" id="footer-details">
+          <div class="row">
+            <div class="col-12 col-md-4 text-light" id="news-container">
+              <h4>Fique por dentro das novidades</h4>
+              <p class="secondary-color">
+                Inscreva-se para saber em primeira mão os lançamentos
+              </p>
+              <form>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Digite o seu e-mail"
+                  />
+                </div>
+                <button class="btn btn-dark bg-light text-dark">Inscrever</button>
+              </form>
+            </div>
+            <div class="col-12 col-md-4 text-light" id="contact-container">
+              <h4>Formas de contato</h4>
+              <p class="secondary-color">(84)9999-9999</p>
+              <p class="secondary-color">contato@livraria.com</p>
+            </div>
+            <div class="col-12 col-md-4 text-light" id="links-container">
+              <div class="row">
+                <h4>Você pode estar buscando por:</h4>
+                <div class="col-6">
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="secondary-color">Comedia</a></li>
+                    <li><a href="#" class="secondary-color">Ficção</a></li>
+                    <li><a href="#" class="secondary-color">Romance</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 text-light">
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="secondary-color">Contratar</a></li>
+                    <li>
+                      <a href="#" class="secondary-color">Trabalhe conosco</a>
+                    </li>
+                    <li><a href="#" class="secondary-color">Contato</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--butons -->
+        <div class="col-12" id="footer-bottom">
+          <div class="row justify-content-between">
+            <div class="col-12 col-md-3  text-light">
+              <p class="secondary-color">Biblioteca-Online &copy; 2023</p>
+            </div>
+            <div class="col-12 col-md-3 text-light">
+              <p class="secondary-color">
+                Realizamos sua leitura com
+                <i class="bi bi-heart"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

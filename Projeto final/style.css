@@ -1,0 +1,72 @@
+/**css de vendas**/
+.vendas .card{
+    display: inline-block;
+    padding: 0px;
+    margin-left: 50px;
+    justify-items: center;
+}
+
+.card-img-top{
+    height: 15rem;
+    width: 50rem;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+}
+/**Cometarios animação**/
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+    content: "\2605";
+    position:absolute;
+    color: gold;
+}
+
+body {
+    background-color:black;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.btn-dark {
+    width: 100%;
+}
+.form-label {
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #030303;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    border-color:rgb(90, 90, 90);
+}
+
+h5 {
+    font-family: 'Times New Roman', Times, serif;
+}
