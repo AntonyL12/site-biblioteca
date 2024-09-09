@@ -91,11 +91,11 @@
                         </div>
                         <div class="col">
                             <h2>${product.titulo}</h2>
-                            <p class="lead">${product.preco}</p>
+                            <p class="lead">R$${product.preco}</p>
                             <h5>Descrição</h5>
                             <p>${product.descricao}</p>
                         <a href="carrinho.html">    
-                            <button type="button" class="btn btn-primary">Adicionar ao Carrinho</button>
+                            <button type="button" class="btn btn-primary" onclick="adicionarAoCarrinho(${productId})">Adicionar ao Carrinho</button>
                         </a>
                     </div>
 
@@ -122,6 +122,20 @@
                 </div>
             `;
         }
+
+        function adicionarAoCarrinho(prodId) {
+          let json = JSON.parse(localStorage.getItem('carrinho')) || []
+
+          let tempProd = {
+            id: prodId,
+            quantidade: 1
+          }
+
+          json.push(tempProd)
+
+          localStorage.setItem('carrinho', JSON.stringify(json))
+        }
+
         loadProduct();
     </script>
 </body>

@@ -4,7 +4,7 @@
         "id": 1, 
         "image":"img/aCulpaEDasEstrelas.jpg", 
         "titulo": "A culpa é das estrelas", 
-        "preco": "39,99", 
+        "preco": 39.99, 
         "descricao": "Hazel é uma paciente terminal. Ainda que, por um milagre da medicina, seu tumor tenha encolhido bastante o que lhe dá a promessa de viver mais alguns anos, o último capítulo de sua história foi escrito no momento do diagnóstico." 
       },
 
@@ -12,7 +12,7 @@
         "id": 2,
         "titulo": "Pequenas Guerreiras",
         "image":"img/gggg.webp", 
-        "preco":"R$ 37,60", 
+        "preco": 37.60, 
         "descricao": "O LIVRO TRAZ A HISTÓRIA DE CINCO MENINAS, FILHAS DAS AMAZONAS, LENDÁRIAS GUERREIRAS INDÍGENAS QUE DERAM NOME AO ESTADO HOMÔNIMO, NA REGIÃO NORTE DO BRASIL. UM DIA, ELAS VÃO BRINCAR NO LAGO ESPELHO DA LUA, NA REGIÃO DO RIO NHAMUNDÁ, E SÃO SURPREENDIDAS POR INDÍGENAS INIMIGOS."
       },
 
@@ -20,7 +20,7 @@
         "id": 3,
         "image":"img/diario de um banana.jpg",  
         "titulo": "Diário de um banana",
-        "preco":" R$ 30,50", 
+        "preco": 30.50, 
         "descricao": "Greg é um garoto comum de 11 anos que vai à escola e enfrenta os desafios da pré-adolescência como milhões de outros. O que o torna tão especial é a vontade de dividir essas experiências com todo mundo, para o caso de tornar-se rico e famoso quando crescer."
       },
 
@@ -28,7 +28,7 @@
         "id": 4, 
         "image":"img/corações solitários.jpg",
         "titulo": "Kit de livros",
-        "preco":" R$ 150,00", 
+        "preco": 150.00, 
         "descricao": "kit de livros infantis."
       },
 
@@ -36,7 +36,7 @@
         "id": 5,
         "image":"img/malala.jpg", 
         "titulo": "Malala",
-        "preco":" R$ 56,65", 
+        "preco": 56.65, 
         "descricao": "é uma garota paquistanesa internacionalmente conhecida por defender o direito das mulheres de estudarem. Sobreviveu a um atentado do Talibã em 2012. Malala Yousafzai é uma ativista paquistanesa que ganhou reconhecimento por lutar pelo direito das mulheres de estudarem."
       },
 
@@ -44,7 +44,7 @@
         "id": 6,
         "image":"img/em busca.jpg",
         "titulo": "Em Busca De Nós Mesmos",
-        "preco":" R$ 35,00", 
+        "preco": 35.00, 
         "descricao": "O questionamento sobre nossa existência, origem e destino tem sido tema de profunda reflexão dos maiores pensadores da humanidade ao longo de três mil anos e, mais recentemente, dos cientistas. As perguntas são as mesmas desde que o homem começou a pensar"
       },
 
@@ -52,7 +52,7 @@
         "id": 7,
         "image":"img/é assim que acaba.jpg", 
         "titulo": "É assim que acaba",
-        "preco":" R$ 43,65", 
+        "preco": 43.65, 
         "descricao": "o livro aborda sem medo alguns tabus da sociedade para explorar a complexidade das relações tóxicas, e como o amor e o abuso muitas vezes coexistem em uma confusão de sentimentos."
       },
 
@@ -60,7 +60,7 @@
         "id": 8,
         "image":"img/cade vc.jpg",
         "titulo": "Cadê você Bernadete",
-        "preco":" R$ 65,00", 
+        "preco":65.00, 
         "descricao": "Bernadette Fox é notável. Aos olhos de seu marido, guru tecnológico da Microsoft e rock star do mundo nerd, ela se torna mais maníaca a cada dia; para as demais mães da Galer Street, escola liberal frequentada pela elite de Seattle, ela só causa desgosto; os especialistas em design ainda a consideram uma gênia da arquitetura sustentável, e Bee, sua filha de quinze anos, acha que tem a melhor mãe do mundo."
       },
 
@@ -68,7 +68,7 @@
         "id": 9,
         "image":"img/harry poter.webp", 
         "titulo": "Harry Poter",
-        "preco":"R$ 49,99", 
+        "preco": 49.99, 
         "descricao": "A saga nos ensina valores sobre amor, amizade, família, amadurecimento, bullying, respeito ao próximo, tolerância diante do que é diferente, conquistas, perdas, política e poder. Enfrentar os medos é uma ótima forma de começar a superá-los."
       },
 
@@ -76,7 +76,7 @@
         "id": 10,
         "image":"img/o poder.jpg",
         "titulo": "O poder da ação",
-        "preco":" R$ 50,00", 
+        "preco": 50.00, 
         "descricao": "Neste livro, Paulo Vieira lhe convida a quebrar o ciclo vicioso e iniciar um caminho de realização. Para isso, ele apresenta o método responsável por impactar 250 mil pessoas ao longo de sua carreira - e que pode ser a chave para o que você tanto procura. No decorrer destas páginas, o autor lhe entrega uma bússola."
       },
 
@@ -84,7 +84,7 @@
         "id": 11, 
         "image":"img/o reino dos ventos.jpg",
         "titulo": "Harry Poter",
-        "preco":" R$ 30,00", 
+        "preco": 30.00, 
         "descricao": "Ele é um bruxo, filho único de Tiago Potter e Lílian Evans Potter, considerado um dos mais famosos bruxos dos tempos modernos e o aluno mais famoso da Escola de Magia e Bruxaria de Hogwarts. Ficou famoso por ter sido o único sobrevivente da Maldição da Morte, quando Lord Voldemort tentou assassiná-lo ainda bebê."
       },
 
@@ -92,7 +92,7 @@
         "id": 12,
         "image":"img/Vermelho Branco.jpg",
         "titulo": "Vermelho, branco e sangue azul",
-        "preco":" R$ 22,00", 
+        "preco": 22.00, 
         "descricao": "Vermelho, branco e sangue azul traz de tudo um pouco: romance, política, sensualidade, seriedade, sexualidade, comédia e vida real. Poderia facilmente ser um romance clichê muito gostoso de ler, mas o fato de relatar uma trama LGBTQI+ torna o livro mais especial."
       }
     
